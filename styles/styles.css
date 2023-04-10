@@ -2,6 +2,25 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+.link {
+    display: inline-block;
+    padding: 50px;
+    height: 40px;
+    width: 150px;
+
+}
+
+.bar {
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightsalmon;
+}
+
 img {
     width: 200px;
 }
@@ -17,5 +36,5 @@ h2 {
 }
 
 ul li {
-    background-color: lightsalmon;
+    /*background-color: lightsalmon;*/
 }
