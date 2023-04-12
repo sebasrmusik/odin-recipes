@@ -8,17 +8,21 @@
 }
 
 .link {
-    display: inline-block;
-    padding: 50px;
+    display: block;
+    padding: 40px;
     height: 40px;
     width: 150px;
-
+    text-align: center;
+    background-color: lightsalmon;
+    border: 5px white solid;
+    flex: 1;
 }
 
 .bar {
-    text-align: center;
     border: 1px solid black;
-    background-color: lightsalmon;
+    /*background-color: lightsalmon;*/
+    display: flex;
+    padding: 0 100px;
 }
 
 img {
@@ -33,8 +37,4 @@ h1 {
 h2 {
     background-color: lightcoral;
     font-weight: 100;
-}
-
-ul li {
-    /*background-color: lightsalmon;*/
 }
