@@ -9,20 +9,24 @@
 
 .link {
     display: block;
-    padding: 40px;
+    list-style: none;
+    padding: 20px;
     height: 40px;
     width: 150px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightsalmon;
     border: 5px white solid;
-    flex: 1;
+    flex: 1 1 0;
 }
 
 .bar {
-    border: 1px solid black;
-    /*background-color: lightsalmon;*/
     display: flex;
-    padding: 0 100px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    padding: 0;
+    gap: 8px;
 }
 
 img {
