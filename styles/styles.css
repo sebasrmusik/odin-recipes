@@ -18,7 +18,7 @@
     align-items: center;
     background-color: lightsalmon;
     border: 5px white solid;
-    flex: 1 1 0;
+    flex: initial;
 }
 
 .bar {
@@ -28,6 +28,10 @@
     padding: 0;
     gap: 8px;
 }
+
+/*.sudado {
+    margin-left: auto;
+}*/
 
 img {
     width: 200px;
